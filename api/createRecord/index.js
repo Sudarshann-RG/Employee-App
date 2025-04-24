@@ -12,7 +12,7 @@ export default async function (context, req) {
   const { id, name, designation } = req.body;
 
   try {
-    await createItem(id, name, designation);
+    await createRecord(id, name, designation);
     context.res = {
       status: 201,
       body: { success: true },

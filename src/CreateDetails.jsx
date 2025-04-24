@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const CreateDetails = () => {
-  const [formData, setFormData] = useState({ id: '', title: '', price: '' });
+  const [formData, setFormData] = useState({ id: '', employeeName: '', designation: '' });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -11,7 +11,7 @@ const CreateDetails = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await fetch('/api/', {
+      await fetch('/api/items', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
