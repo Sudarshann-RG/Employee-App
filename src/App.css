@@ -31,6 +31,16 @@ form
     padding: 10px;
 }
 
+#id
+{
+    font-style: normal;
+    font-size: large;
+    border-radius: 0.5rem;
+    outline: 0;
+    border: 2px solid rgb(0, 71, 171);
+    padding: 10px;
+}
+
 #designation
 {
     font-style: normal;
@@ -43,7 +53,7 @@ form
 
 button{
     height: 70px;
-    width: 280px;
+    width: 330px;
 
     border: 2px solid rgb(0, 71, 171);
     padding: 20px;
@@ -72,5 +82,5 @@ button:hover
     background-color:rgb(0, 71, 171);
 
     height: 80px;
-    width: 290px;
+    width: 340px;
 } 
