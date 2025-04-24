@@ -27,6 +27,7 @@ const CreateDetails = () => {
 
   return (
     <form onSubmit={handleSubmit}>
+      <h1 className="heading">Employee App</h1>
       <div>
         <input
           placeholder="Employee ID: 101"

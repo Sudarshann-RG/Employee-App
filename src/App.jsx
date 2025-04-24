@@ -6,7 +6,9 @@ import CreateDetails from './CreateDetails.jsx';
 
 function App() {
   return (
-    <CreateDetails />
+    <div className="container">
+      <CreateDetails />
+    </div>
   )
 }
 
