@@ -9,10 +9,10 @@ export default async function (context, req) {
     return;
   }
 
-  const { id, name, designation } = req.body;
+  const { id, employeeName, designation } = req.body;
 
   try {
-    await createRecord(id, name, designation);
+    await createRecord(id, employeeName, designation);
     context.res = {
       status: 201,
       body: { success: true },
